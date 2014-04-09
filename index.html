@@ -1,34 +1,32 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
-<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
-<style>
-	#email{
-		text-align: center;
-	}
-</style>
+    <meta charset="utf-8">
+    <title>
+       Vick's Quick Dialer
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
 </head>
 <body>
-<div data-role="page">
-<div data-role="header">
-    <h1>Welcome To My Homepage</h1>
-</div>
-<div data-role="main" class="ui-content">
-    <p>I Am Now A Mobile Developer!!</p>
-	<div data-role="collapsible" id = "email">
-		<h1>Click me - I'm collapsible!</h1>
-			<a href = "mailto: aabdulmalik@pit.edu">Abbas</a><br>
-			<a href = "mailto: 12mahant2362@pit.edu">Vik</a><br>
-			<a href = "mailto: 12poole782@pit.edu">Jason</a>
-		<p>I'm the expanded content.</p>
-	</div>
-</div>
-<div data-role="footer">
-    <h1>Footer Text</h1>
-</div>
-</div>
+  <div data-role="page" id="pageone">
+    <div data-role="header">
+      <h1>Quick Dialer</h1>
+    </div>
+  <label align="center" >Call a Friend Below</label>
+  <div data-role="fieldcontain">
+    <select name="select" id="select"></select>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h1>Quick Dialer</h1>
+  </div>
+</div> 
 </body>
+<script src="script.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
 </html>
+
+
+
